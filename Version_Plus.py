@@ -12,6 +12,7 @@ def saveMajorVersion():
     
     try:
         origver = removeextbase.split("_t")
+        origtake = removeextbase[-5:]
         if not len(origver) > 1:
             raise
         v = origver[-2]
@@ -20,10 +21,11 @@ def saveMajorVersion():
         newver = str(int(ver)+1)
         newver = newver.zfill(3)
         
-        prevtake = 'v' + ver
-        newtake = 'v' + newver
+        prever = 'v' + ver
+        newver = 'v' + newver
         
-        newpath = actualpath.replace(prevtake, newtake)
+        newpath = actualpath.replace(prever, newver)
+        newpath = newpath.replace(origtake, "_t000")
         hou.hipFile.save(newpath, True)
     
     except:
