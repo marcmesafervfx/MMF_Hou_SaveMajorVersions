@@ -16,11 +16,11 @@ The script analyzes the current file path and:
 
 ## ✨ Features
 
-* ✅ Intelligent auto-increment versioning
-* ✅ Full overwrite protection
-* ✅ Automatic padding normalization
-* ✅ Works with any file naming convention
-* ✅ Ideal for buttons, shelf tools or callbacks
+* Intelligent auto-increment versioning
+* Full overwrite protection
+* Automatic padding normalization
+* Works with any file naming convention
+* Ideal for buttons, shelf tools or callbacks
 
 
 ## 💡 Recommended usage
