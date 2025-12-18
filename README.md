@@ -1,6 +1,6 @@
 # 🚀 Auto Upversion
 
-Let’s get started! This script is designed to automatically save incremental versions of `.hip` files in Houdini, preventing overwrites and keeping a clean, consistent versioning system.
+This script is designed to automatically save incremental versions of `.hip` files in Houdini, preventing overwrites and keeping a clean, consistent versioning system.
 
 
 ## 📦 What does this script do?
