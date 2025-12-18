@@ -2,7 +2,6 @@
 
 Let’s get started! This script is designed to automatically save incremental versions of `.hip` files in Houdini, preventing overwrites and keeping a clean, consistent versioning system.
 
----
 
 ## 📦 What does this script do?
 
@@ -14,7 +13,6 @@ The script analyzes the current file path and:
 * Normalizes version padding to a minimum of 3 digits.
 * Saves the `.hip` file using the next available version.
 
----
 
 ## ✨ Features
 
@@ -24,7 +22,6 @@ The script analyzes the current file path and:
 * ✅ Works with any file naming convention
 * ✅ Ideal for buttons, shelf tools or callbacks
 
----
 
 ## 💡 Recommended usage
 
